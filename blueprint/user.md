@@ -6,7 +6,7 @@
 
 + Request (application/json)
     + Attributes
-        + userid: test_user_id (string, required) - 登録するユーザーID
+        + userId: test_user_id (string, required) - 登録するユーザーID
         + name: テストユーザー (string, required) - 登録する名前
         + password: test_user_pass (string, required) - 登録するパスワード
         + mobile: 09012345678 (string, required) - SMS用の電話番号
@@ -90,7 +90,7 @@
 + Response 200 (application/json)
     + Body
         [
-            {"userid": "userid123", "position": { "lat": 35.123, "lon" : 48.111 } "lastUpdate": "2017-03-31 15:30:31", "name":"田中" }
+            {"userId": "userid123", "position": { "lat": 35.123, "lon" : 48.111 } "lastUpdate": "2017-03-31 15:30:31", "name":"田中" }
         ]
 
 + Response 204 (application/json)

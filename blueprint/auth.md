@@ -7,7 +7,7 @@
 + Request (application/json)
 事前にシステム登録されているユーザIDとパスワードを送信する
     + Attributes
-        + userid: correct_userid (string, required) - ユーザーID
+        + userId: correct_userid (string, required) - ユーザーID
         + password: correct_password (string, required) - パスワード
 
 + Response 200 (application/json)
@@ -18,7 +18,7 @@
 
 + Request 不正なID/Pass (application/json)
 + Attributes
-    + userid: invalid_userid (string) - ユーザーID
+    + userId: invalid_userid (string) - ユーザーID
     + password: invalid_password (string) - パスワード
 
 + Response 204
