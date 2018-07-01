@@ -11,8 +11,8 @@
 + Response 200 (application/json)
      + Body
         [
-            {"userId": "userid123", "position": { "lat": 35.123, "lon" : 48.111 } "lastUpdate": "2017-03-31 15:30:31", "name":"田中" },
-            {"userId": "userid345", "position": { "lat": 35.112, "lon" : 48.111 } "lastUpdate": "2018-01-31 15:30:31", "name":"鈴木" },
+            {"userId": "userid123", "position": { "lat": 35.123, "lng" : 48.111 } "lastUpdate": "2017-03-31 15:30:31", "name":"田中" },
+            {"userId": "userid345", "position": { "lat": 35.112, "lng" : 48.111 } "lastUpdate": "2018-01-31 15:30:31", "name":"鈴木" },
         ]
 
 + Response 401 (application/json)

@@ -108,11 +108,11 @@
     + Headers
         Authorization : Bearer valid_access_token
     + Attributes
-        + position: { "lat": 35.123, "lon" : 48.111 }  (string, required) - 登録する位置情報
+        + position: { "lat": 35.123, "lng" : 48.111 }  (string, required) - 登録する位置情報
 
 + Response 200 (application/json)
     + Attributes
-        + position: { "lat": 35.123, "lon" : 48.111 }  (string, required) - 登録した位置情報をおうむ返し
+        + position: { "lat": 35.123, "lng" : 48.111 }  (string, required) - 登録した位置情報をおうむ返し
 
 + Response 400 (application/json)
     + Attributes
