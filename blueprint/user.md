@@ -7,8 +7,9 @@
 + Request (application/json)
     + Attributes
         + userid: test_user_id (string, required) - 登録するユーザーID
-        + name: テストユーザー (string) - 登録する名前
-        + password: test_user_pass (string) - 登録するパスワード
+        + name: テストユーザー (string, required) - 登録する名前
+        + password: test_user_pass (string, required) - 登録するパスワード
+        + mobile: 09012345678 (string, required) - SMS用の電話番号
 
 + Response 200 (application/json)
     + Attributes
@@ -50,6 +51,7 @@
     + Attributes
         + newPassword: test_user_new_pass (string) - 新しいパスワード
         + name: 新テストユーザー (string) - 新しい名前
+        + mobile: 09012345678 (string) - SMS用の電話番号
 
 + Response 200 (application/json)
     + Attributes
