@@ -18,7 +18,7 @@ $ npm run docs
 ```
 
 #### 展開先(GitHub Page)
-https://tetsuya-zama.github.io/kyodo.co-api-blueprint/
+https://nst-ilab.github.io/rt.kyo-do.co-api-blueprint/
 
 ### APIドキュメントをプレビューする
 
