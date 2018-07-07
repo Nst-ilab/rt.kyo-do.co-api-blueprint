@@ -103,7 +103,7 @@
 
 
 ### 最新位置情報更新 [POST]
-
+ただし自分自身の位置情報しか受け付けない（人の位置情報はPost不可）
 + Request (application/json)
     + Headers
         Authorization : Bearer valid_access_token
