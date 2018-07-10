@@ -117,3 +117,28 @@
 + Response 400 (application/json)
     + Attributes
         + message: user post is faild (string) - 登録処理に失敗（認証エラーなど）
+
+
+
+
+## ユーザ位置情報依頼エンドポイント [/user/{userId}/message]
+
++ Parameters
+    + userId: taro1234 (string) - 操作したいユーザID
+
+### 位置情報更新依頼 [POST]
+該当のユーザに位置情報の更新を依頼する為のSMSを送信する
+
++ Request (application/json)
+    + Headers
+        Authorization : Bearer valid_access_token
+    + Attributes
+        + message: "位置情報を教えて！鈴木より"  (string, required) - 送信したいメッセージ
+
++ Response 200 (application/json)
+    + Attributes
+        + message: "位置情報を教えて！鈴木より"  (string, required) - 送信したメッセージ
+
++ Response 400 (application/json)
+    + Attributes
+        + message: user post is faild (string) - 送信に失敗（認証エラーなど）
