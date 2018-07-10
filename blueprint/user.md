@@ -127,7 +127,7 @@
     + userId: taro1234 (string) - 操作したいユーザID
 
 ### 位置情報更新依頼 [POST]
-該当のユーザに位置情報の更新を依頼する為のSMSを送信する
+該当のユーザに位置情報の更新を依頼する為のSMSを送信する！
 
 + Request (application/json)
     + Headers
